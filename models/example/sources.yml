@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: hospitality
     database: dbt-project-490916
-    schema: hospitality_db
+    schema: hospitality_US
     tables:
       - name: customers
       - name: hotels

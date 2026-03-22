@@ -5,7 +5,7 @@ SELECT
     h.hotel_name,
     h.city,
     h.rating,
-    
+
     DATE_DIFF(check_out_date, check_in_date, DAY) AS stay_duration
 
 FROM {{ ref('stg_bookings') }} b
